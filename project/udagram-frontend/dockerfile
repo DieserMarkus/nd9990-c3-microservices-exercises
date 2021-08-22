@@ -14,4 +14,4 @@ FROM nginx:alpine
 #COPY www /usr/share/nginx/html
 COPY --from=ionic /usr/src/app/www /usr/share/nginx/html
 #Workaround for bug: Refresh on page not possible / KNP 25.07.2021
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+#COPY nginx.conf /etc/nginx/conf.d/default.conf
