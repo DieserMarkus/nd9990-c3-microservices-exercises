@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  AWS_BUCKET: (...)
+  AWS_PROFILE: default
+  AWS_REGION: (...)
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: (...).rds.amazonaws.com
+  URL: http://(...).elb.amazonaws.com
